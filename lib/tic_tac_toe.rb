@@ -87,4 +87,7 @@ WIN_COMBINATIONS = [
   
   def play(board)
     input = gets.chomp
+    until over?(board) == true
+    turn(board)
   end
+  if 
