@@ -86,5 +86,5 @@ WIN_COMBINATIONS = [
   end
   
   def play(board)
-    
+    input = gets.chomp
   end
