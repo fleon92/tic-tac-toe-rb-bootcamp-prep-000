@@ -93,4 +93,6 @@ WIN_COMBINATIONS = [
   if draw?(board) == true
     puts "Cat's game!"
   else won?(board)
-    puts ""
+    puts "Congratulations #{winner(board)}!"
+  end
+end
