@@ -92,4 +92,4 @@ WIN_COMBINATIONS = [
   end
   if draw?(board) == true
     puts "Cat's game!"
-    elsif
+  else won?(board) == true
