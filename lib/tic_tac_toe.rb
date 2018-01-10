@@ -90,4 +90,6 @@ WIN_COMBINATIONS = [
     until over?(board) == true
     turn(board)
   end
-  if 
+  if draw?(board) == true
+    puts "Cat's game!"
+    elsif
