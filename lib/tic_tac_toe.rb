@@ -55,9 +55,9 @@ WIN_COMBINATIONS = [
     count
   end
   
-  def current_player(board)
-    turn_count(board) % 2 ? "X" : "O"
-  end
+def current_player(board)
+  turn_count(board).even? ? "X" : "O"
+end
   
   def won?(board)
     WIN_COMBINATIONS.find do |win_combo|
